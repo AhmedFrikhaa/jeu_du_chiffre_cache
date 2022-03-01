@@ -16,3 +16,8 @@ if(test===true){
 else {
 	alert("YOU LOSE ");
 }
+choice=confirm("voulez vous rejouer")
+if(choice==true)
+{
+    document.location.reload()
+}
